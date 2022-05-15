@@ -32,7 +32,7 @@ The list of projects and features include:
   - Password change and reset page
   - Sending custom emails
   - Collecting static files for production and serving with WhiteNoise
-  - Heroku Deployment
+  - Heroku deployment
 - Newspaper app
 - Bookstore app
 - Library API app
