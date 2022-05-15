@@ -1,7 +1,5 @@
 # Django Fundamentals
 
-**Last updated: 05/13/2022**
-
 ---
 
 ## Overview
@@ -24,13 +22,7 @@ The list of projects and features include:
   - static files for CSS
   - Forms for creating/updating records
   - User Accounts
-  - Custom User Model
   - Superuser creation
-  - User Authentication
-  - Bootstrap pages
-  - Sign-up page
-  - Password change and reset page
-  - Sending custom emails
   - Collecting static files for production and serving with WhiteNoise
   - Heroku deployment
 - Newspaper app
