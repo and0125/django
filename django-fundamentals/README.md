@@ -25,7 +25,7 @@ The list of projects and features include:
   - Superuser creation
   - Collecting static files for production and serving with WhiteNoise
   - Heroku deployment
-- Newspaper app
-- Bookstore app
-- Library API app
-- Blog API app
+- Newspaper App
+  - Using `AbstractUser` to customize a user model
+  - Environment variables
+  - Heroku deployment
