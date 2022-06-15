@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.10
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
@@ -6,6 +6,6 @@ ENV PYTHONUNBUFFERED 1
 WORKDIR /code
 
 COPY Pipfile Pipfile.lock /code/
-RUN pip install pipenv && pipenv install --system
+RUN pip install pipenv && pipenv install --system && pipenv install --upgrade pip
 
 COPY . /code/
